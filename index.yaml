@@ -20,6 +20,6 @@ entries:
     name: load-balancer-operator
     type: application
     urls:
-    - https://auerbecklabs.github.io/charts/load-balancer-operator-0.0.1.tgz
+    - https://infratographer.github.io/charts/load-balancer-operator-0.0.1.tgz
     version: 0.0.1
 generated: "2023-01-26T17:24:14.746416591Z"

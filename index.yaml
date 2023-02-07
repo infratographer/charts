@@ -2,6 +2,24 @@ apiVersion: v1
 entries:
   identity-manager-sts:
   - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-02-07T23:30:09.038662938Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.2.2
+    description: A Helm chart for Identity-manager STS a RFC 8693 token exchange server.
+    digest: 32ab46427d8e70eb6001b8fad47acfe541ce847a36c16306ce9ac50538672e7d
+    home: http://github.com/infratographer/identity-manager-sts
+    maintainers:
+    - email: admohammed@equinix.com
+      name: Adam Mohammed
+      url: https://github.com/adammohammed
+    name: identity-manager-sts
+    urls:
+    - https://infratographer.github.io/charts/identity-manager-sts-v0.0.3.tgz
+    version: v0.0.3
+  - apiVersion: v2
     appVersion: v0.0.2
     created: "2023-02-07T22:58:28.088745498Z"
     dependencies:
@@ -62,4 +80,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/load-balancer-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-07T22:58:28.087228502Z"
+generated: "2023-02-07T23:30:09.035840366Z"

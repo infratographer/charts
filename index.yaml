@@ -3,15 +3,15 @@ entries:
   fertilesoil:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2023-03-01T22:06:22.716375834Z"
+    created: "2023-03-01T22:13:27.339578292Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
       tags:
       - bitnami-common
       version: 2.2.3
-    description: This is a helm chart for the deployment of Fertilesoil
-    digest: 51bd3a0a50eb0f4f2b3d0c4dba27ebf72ef9f2974f4abc8f24677d5efe21b61f
+    description: A Helm chart to deploy fertilesoil
+    digest: f2cbe097368dac2e1dedaa50bf1a1d5eb36d2025be054556e5b0d361108c163c
     kubeVersion: '>=1.21'
     name: fertilesoil
     urls:
@@ -304,4 +304,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/load-balancer-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-01T22:06:22.714395924Z"
+generated: "2023-03-01T22:13:27.33660864Z"

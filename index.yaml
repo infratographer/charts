@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  fertilesoil:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2023-03-01T22:06:22.716375834Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.3
+    description: This is a helm chart for the deployment of Fertilesoil
+    digest: 51bd3a0a50eb0f4f2b3d0c4dba27ebf72ef9f2974f4abc8f24677d5efe21b61f
+    kubeVersion: '>=1.21'
+    name: fertilesoil
+    urls:
+    - https://infratographer.github.io/charts/fertilesoil-v0.0.1.tgz
+    version: v0.0.1
   identity-api:
   - apiVersion: v2
     appVersion: v0.0.6
@@ -287,4 +304,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/load-balancer-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-01T16:51:58.947785929Z"
+generated: "2023-03-01T22:06:22.714395924Z"

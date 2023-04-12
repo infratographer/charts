@@ -546,6 +546,29 @@ entries:
     urls:
     - https://infratographer.github.io/charts/load-balancer-operator-0.0.1.tgz
     version: 0.0.1
+  permissions-api:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2023-04-12T14:57:17.051545832Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.2.4
+    description: Helm chart for permissions-api, a SpiceDB-based authorization service.
+    digest: 0d90daa15fe8f4d567c796dc29aff77f5507132b59b200575200abd0d5279dc9
+    home: http://github.com/infratographer/permissions-api
+    keywords:
+    - authorization
+    - rbac
+    - spicedb
+    maintainers:
+    - email: jschaeffer@equinix.com
+      name: John Schaeffer
+      url: https://github.com/jnschaeffer
+    name: permissions-api
+    urls:
+    - https://infratographer.github.io/charts/permissions-api-v0.1.0.tgz
+    version: v0.1.0
   tenant-api:
   - apiVersion: v2
     appVersion: v0.0.4
@@ -619,4 +642,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-04-10T15:59:45.531399241Z"
+generated: "2023-04-12T14:57:17.047615928Z"

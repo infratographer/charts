@@ -936,6 +936,28 @@ entries:
     version: 0.0.1
   permissions-api:
   - apiVersion: v2
+    appVersion: v0.1.6
+    created: "2023-06-20T14:07:25.546688728Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.4.0
+    description: Helm chart for permissions-api, a SpiceDB-based authorization service.
+    digest: da0f393dd4575b853ac1a13c06b1e33077df21ec88712a96943ffee8cf451ec0
+    home: http://github.com/infratographer/permissions-api
+    keywords:
+    - authorization
+    - rbac
+    - spicedb
+    maintainers:
+    - email: jschaeffer@equinix.com
+      name: John Schaeffer
+      url: https://github.com/jnschaeffer
+    name: permissions-api
+    urls:
+    - https://infratographer.github.io/charts/permissions-api-v0.1.6.tgz
+    version: v0.1.6
+  - apiVersion: v2
     appVersion: v0.1.5
     created: "2023-06-19T22:48:49.75372975Z"
     dependencies:
@@ -1225,4 +1247,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-06-19T22:48:49.752132935Z"
+generated: "2023-06-20T14:07:25.544773893Z"

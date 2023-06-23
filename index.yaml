@@ -445,6 +445,28 @@ entries:
     urls:
     - https://infratographer.github.io/charts/identity-manager-sts-v0.0.2.tgz
     version: v0.0.2
+  ipam-api:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2023-06-23T21:27:16.69862353Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.5
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v1.0.24
+    description: A Helm chart to deploy the Infratographer ipam api
+    digest: bd34497f56c7629ecc8fea4e6cdaf29e94503a1cd8c0682da851f8e2c678766f
+    kubeVersion: '>=1.24'
+    name: ipam-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/ipam-api-v0.0.1.tgz
+    version: v0.0.1
   load-balancer-api:
   - apiVersion: v2
     appVersion: v0.0.18
@@ -1433,4 +1455,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-06-23T19:49:39.379126376Z"
+generated: "2023-06-23T21:27:16.695358402Z"

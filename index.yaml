@@ -447,6 +447,27 @@ entries:
     version: v0.0.2
   ipam-api:
   - apiVersion: v2
+    appVersion: v0.0.2
+    created: "2023-06-26T17:29:16.193383908Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.5
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v1.0.24
+    description: A Helm chart to deploy the Infratographer ipam api
+    digest: bb998fd4036f23f5cb029c7fc45039a60f16100c702d2c6b1aca34e4268b3afa
+    kubeVersion: '>=1.24'
+    name: ipam-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/ipam-api-v0.0.2.tgz
+    version: v0.0.2
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2023-06-23T21:27:16.69862353Z"
     dependencies:
@@ -1477,4 +1498,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-06-25T10:16:56.611547062Z"
+generated: "2023-06-26T17:29:16.189876909Z"

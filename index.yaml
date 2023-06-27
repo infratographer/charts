@@ -1043,7 +1043,7 @@ entries:
   loadbalancer-provider-haproxy:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2023-06-27T14:12:31.38187875Z"
+    created: "2023-06-27T17:47:53.705453417Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1056,7 +1056,7 @@ entries:
       version: v1.0.15
     description: A Helm chart for deploying the infratographer loadbalancer provider
       for haproxyc
-    digest: 47bee0e8b7f487e822281cadda938600e033599b2271c885f0786fa205dc8d48
+    digest: 3fdfd72ca22df7bb018d26213ea2d3681eaca6ca1043f193a8e595b72178919b
     kubeVersion: '>=1.24'
     name: loadbalancer-provider-haproxy
     type: application
@@ -1559,4 +1559,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-06-27T16:51:48.72109469Z"
+generated: "2023-06-27T17:47:53.703246624Z"

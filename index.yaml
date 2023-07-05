@@ -1279,6 +1279,27 @@ entries:
     version: v0.0.1
   location-api:
   - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-07-05T17:53:29.08010081Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.4.0
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v1.0.26
+    description: A Helm chart for Kubernetes
+    digest: 7886c9e1d0068ef887e775be506446098dbd5680762f9b355a9184e7451cf2dd
+    kubeVersion: '>=1.24'
+    name: location-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/location-api-v0.0.3.tgz
+    version: v0.0.3
+  - apiVersion: v2
     appVersion: v0.0.2
     created: "2023-06-30T16:51:31.255068488Z"
     dependencies:
@@ -1911,4 +1932,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-07-05T17:52:44.320063562Z"
+generated: "2023-07-05T17:53:29.077153115Z"

@@ -1512,6 +1512,28 @@ entries:
     urls:
     - https://infratographer.github.io/charts/location-api-v0.0.1.tgz
     version: v0.0.1
+  metadata-api:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2023-07-25T20:24:54.401205183Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.5
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v1.0.24
+    description: A Helm chart to deploy the Infratographer metadata api
+    digest: 79fa1a140ee2ccc84708f33d6fba5e6a40b6720c63b3e4a566636e10618cce02
+    kubeVersion: '>=1.24'
+    name: metadata-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/metadata-api-v0.0.1.tgz
+    version: v0.0.1
   permissions-api:
   - apiVersion: v2
     appVersion: v0.1.19
@@ -2191,4 +2213,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-07-25T19:25:16.309579988Z"
+generated: "2023-07-25T20:24:54.394146943Z"

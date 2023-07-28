@@ -1978,7 +1978,7 @@ entries:
   resource-provider-api:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2023-07-28T19:05:58.972480213Z"
+    created: "2023-07-28T19:31:08.626491365Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1990,7 +1990,7 @@ entries:
       repository: https://stakater.github.io/stakater-charts
       version: v1.0.26
     description: A Helm chart for deploying the infratographer resource provider API
-    digest: 243014cd3d3c50c7308e768cf1faf813456105d832d7dc589bba04250537a81e
+    digest: b8cb9ed9de4319d15309cac4351f3888f41d0ae2536ae807633ad27e93847afe
     kubeVersion: '>=1.24'
     name: resource-provider-api
     type: application
@@ -2278,4 +2278,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-07-28T19:05:58.970242271Z"
+generated: "2023-07-28T19:31:08.623561997Z"

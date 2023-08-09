@@ -2107,6 +2107,23 @@ entries:
     version: v0.0.1
   tenant-api:
   - apiVersion: v2
+    appVersion: v0.2.1
+    created: "2023-08-09T15:42:29.218606479Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.8.0
+    description: A Helm chart to deploy the Infratographer tenant-api
+    digest: be73ae1960f9ececea543541f655df4f9e4f9e8bb966c42474e5069112f5429c
+    kubeVersion: '>=1.23'
+    name: tenant-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/tenant-api-v0.2.1.tgz
+    version: v0.2.1
+  - apiVersion: v2
     appVersion: v0.2.0
     created: "2023-08-08T15:40:54.498542944Z"
     dependencies:
@@ -2382,4 +2399,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-08-09T14:14:26.833981448Z"
+generated: "2023-08-09T15:42:29.215027949Z"

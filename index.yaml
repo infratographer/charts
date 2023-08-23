@@ -1620,6 +1620,28 @@ entries:
     urls:
     - https://infratographer.github.io/charts/metadata-api-v0.0.1.tgz
     version: v0.0.1
+  node-resolver:
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2023-08-23T18:07:02.603577984Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.8.0
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: v1.0.36
+    description: A Helm chart to deploy the Infratographer node-resolver api
+    digest: dd4699a6fe822b71d64ed6b0015bd6bf6d3403e5e41d9401bb5605cad105d36b
+    kubeVersion: '>=1.24'
+    name: node-resolver
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/node-resolver-v0.0.1.tgz
+    version: v0.0.1
   permissions-api:
   - apiVersion: v2
     appVersion: v0.2.4
@@ -2486,4 +2508,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-08-23T14:20:31.846701961Z"
+generated: "2023-08-23T18:07:02.597400948Z"

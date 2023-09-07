@@ -1129,6 +1129,27 @@ entries:
     version: v0.0.2
   load-balancer-operator:
   - apiVersion: v2
+    appVersion: v0.0.19
+    created: "2023-09-07T19:59:56.82947362Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.2.4
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: 1.0.29
+    description: A Helm chart to deploy the Infratographer load-balancer-operator
+    digest: 03699349a0cb2e1902db61032e0a7e39a7dae320c113c3dcb674365f01382bc5
+    kubeVersion: '>=1.24'
+    name: load-balancer-operator
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/load-balancer-operator-v0.0.19.tgz
+    version: v0.0.19
+  - apiVersion: v2
     appVersion: v0.0.18
     created: "2023-09-01T16:45:14.891605192Z"
     dependencies:
@@ -2679,4 +2700,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-09-01T16:45:14.886685747Z"
+generated: "2023-09-07T19:59:56.827058011Z"

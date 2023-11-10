@@ -2067,6 +2067,27 @@ entries:
     version: v0.0.1
   metadata-api:
   - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-11-10T17:27:51.375754674Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.13.3
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: 1.0.48
+    description: A Helm chart to deploy the Infratographer metadata api
+    digest: 6aaa25f760c7bab12cf33d8728b7ece206bcc5e49180d9595a12e71d883f828c
+    kubeVersion: '>=1.24'
+    name: metadata-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/metadata-api-v0.0.3.tgz
+    version: v0.0.3
+  - apiVersion: v2
     appVersion: v0.0.2
     created: "2023-11-01T21:19:15.264468053Z"
     dependencies:
@@ -3124,4 +3145,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-11-06T17:13:18.837016648Z"
+generated: "2023-11-10T17:27:51.371155516Z"

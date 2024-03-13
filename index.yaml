@@ -706,6 +706,27 @@ entries:
     version: v0.0.1
   load-balancer-api:
   - apiVersion: v2
+    appVersion: v0.2.2
+    created: "2024-03-13T17:46:43.357146062Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.14.1
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: 1.0.58
+    description: A Helm chart to deploy the Infratographer load-balancer-api
+    digest: 278b29b7a2a839f71c991f3fb78d10ae7f7d0b6fc78c30961702aca98c474878
+    kubeVersion: '>=1.24'
+    name: load-balancer-api
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/load-balancer-api-v0.2.2.tgz
+    version: v0.2.2
+  - apiVersion: v2
     appVersion: v0.2.1
     created: "2024-02-27T17:51:22.257522424Z"
     dependencies:
@@ -3699,4 +3720,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-03-07T20:20:29.967054241Z"
+generated: "2024-03-13T17:46:43.355211482Z"

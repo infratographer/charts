@@ -17,6 +17,22 @@ entries:
     urls:
     - https://infratographer.github.io/charts/fertilesoil-v0.0.1.tgz
     version: v0.0.1
+  iam-runtime-infratographer:
+  - apiVersion: v2
+    appVersion: v0.4.1
+    created: "2024-05-06T18:44:01.26730942Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.18.0
+    description: Functions which assist in deploying iam-runtime-infratographer with
+      your app.
+    digest: e587e727e7568bca988abbf9c84fa4dbbfaa249c060ccecea3eda63df9b839fc
+    home: http://github.com/infratographer/iam-runtime-infratographer
+    name: iam-runtime-infratographer
+    urls:
+    - https://infratographer.github.io/charts/iam-runtime-infratographer-v0.4.1.tgz
+    version: v0.4.1
   identity-api:
   - apiVersion: v2
     appVersion: v2023.04.0-alpha.1
@@ -3824,4 +3840,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-04-16T15:21:08.131872207Z"
+generated: "2024-05-06T18:44:01.266108317Z"

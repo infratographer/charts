@@ -19,6 +19,21 @@ entries:
     version: v0.0.1
   iam-runtime-infratographer:
   - apiVersion: v2
+    appVersion: v0.6.0
+    created: "2024-12-05T21:33:10.173916224Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.27.0
+    description: Functions which assist in deploying iam-runtime-infratographer with
+      your app.
+    digest: faf2b28b5fb2110f4bc2cee839b8c25e54da2f8f12135089b57a0c0e09721764
+    home: http://github.com/infratographer/iam-runtime-infratographer
+    name: iam-runtime-infratographer
+    urls:
+    - https://infratographer.github.io/charts/iam-runtime-infratographer-v0.6.0.tgz
+    version: v0.6.0
+  - apiVersion: v2
     appVersion: v0.5.1
     created: "2024-10-14T15:09:24.274024759Z"
     dependencies:
@@ -4302,4 +4317,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2024-11-05T20:59:23.529878313Z"
+generated: "2024-12-05T21:33:10.172671501Z"

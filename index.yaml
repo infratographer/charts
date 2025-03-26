@@ -3182,6 +3182,27 @@ entries:
     version: v0.0.1
   node-resolver:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2025-03-26T20:29:45.471939426Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.27.0
+    - condition: reloader.enabled
+      name: reloader
+      repository: https://stakater.github.io/stakater-charts
+      version: 2.0.0
+    description: A Helm chart to deploy the Infratographer node-resolver api
+    digest: fcfe6e8595c13795d13c8ac260e4e185c7efe519d8a8e5df5ca1395ebc25fbd1
+    kubeVersion: '>=1.24'
+    name: node-resolver
+    type: application
+    urls:
+    - https://infratographer.github.io/charts/node-resolver-v0.1.1.tgz
+    version: v0.1.1
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2025-03-20T19:09:20.574657096Z"
     dependencies:
@@ -4693,4 +4714,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2025-03-26T16:35:32.284135242Z"
+generated: "2025-03-26T20:29:45.469121493Z"

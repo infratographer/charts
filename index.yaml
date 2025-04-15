@@ -319,6 +319,28 @@ entries:
     - https://infratographer.github.io/charts/identity-api-v2023.04.0-alpha.0.tgz
     version: v2023.04.0-alpha.0
   - apiVersion: v2
+    appVersion: v0.4.0
+    created: "2025-04-15T19:25:02.3413861Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.27.0
+    description: A Helm chart for Identity-API - RFC 8693 token exchange server.
+    digest: 3e4e94160caf2fae289a3fd1424fa98000873865fe18379446da97f9294931c6
+    home: http://github.com/infratographer/identity-api
+    keywords:
+    - identity
+    - oauth2
+    - rfc8693
+    maintainers:
+    - email: admohammed@equinix.com
+      name: Adam Mohammed
+      url: https://github.com/adammohammed
+    name: identity-api
+    urls:
+    - https://infratographer.github.io/charts/identity-api-v0.4.0.tgz
+    version: v0.4.0
+  - apiVersion: v2
     appVersion: v0.3.2
     created: "2025-04-11T21:06:59.682177425Z"
     dependencies:
@@ -4884,4 +4906,4 @@ entries:
     urls:
     - https://infratographer.github.io/charts/tenant-api-v0.0.1.tgz
     version: v0.0.1
-generated: "2025-04-15T17:08:44.006708566Z"
+generated: "2025-04-15T19:25:02.33994031Z"
